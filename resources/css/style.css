@@ -1,0 +1,128 @@
+/* Pre-defined elements */
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  text-align: center;
+  opacity: 0.9;
+  margin: 0;
+}
+
+h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+div {
+  display: block;
+}
+
+/* Header */
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+nav a {
+  text-decoration: underline;
+  color: seashell;
+  font-family: Helvetica;
+}
+
+nav span {
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+/* Our mission */
+
+.main {
+    padding-top: 69px;
+    margin: auto;
+    width: 1200px;
+}
+
+.missionimage {
+  background-image: url(/Users/andreaspro/Documents/GitHub/tea_cozy/resources/images/img-mission-background.jpg);
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  font-family: Helvetica, sans-serif;
+  color: seashell;
+  text-align: center;
+}
+
+.textbox {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+/* Featured Tea */
+
+#featuredtea {
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#tea {
+  padding-top: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: auto;
+  padding-left: 25px;
+}
+
+/* Locations */
+
+.locationsimage {
+  background-image: url(/Users/andreaspro/Documents/GitHub/tea_cozy/resources/images/img-locations-background.jpg);
+  height: 500px;
+  width: 100%;
+  padding-top: 70px;
+}
+
+.smalltextbox {
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  padding-left: 20px;
+  padding-top: 15px;
+  margin: auto;
+}
+
+/* Footer */
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
