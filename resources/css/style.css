@@ -105,7 +105,7 @@ nav span {
 /* Locations */
 
 .locationsimage {
-  background-image: url(/Users/andreaspro/Documents/GitHub/tea_cozy/resources/images/img-locations-background.jpg);
+  background-image: url(../images/img-locations-background.jpg);
   height: 500px;
   width: 100%;
   padding-top: 70px;
