@@ -67,7 +67,7 @@ nav span {
 }
 
 .missionimage {
-  background-image: url(../resources/images/img-mission-background.jpg);
+  background-image: url(../images/img-mission-background.jpg);
   display: flex;
   justify-content: center;
   height: 700px;
